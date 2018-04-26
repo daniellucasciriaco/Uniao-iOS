@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D9DFF1F9682E51944BA8E9E /* Pods_Viacao_UniaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8707F26F83AEACFB76D8456A /* Pods_Viacao_UniaoUITests.framework */; };
+		65009D8E1E88BBA100E9648D /* PinBus.png in Resources */ = {isa = PBXBuildFile; fileRef = 65009D8D1E88BBA100E9648D /* PinBus.png */; };
+		65009D901E88BDF400E9648D /* PinUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 65009D8F1E88BDF300E9648D /* PinUser.png */; };
+		650FB9D41E89D36C00E461C9 /* LinhaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650FB9D31E89D36C00E461C9 /* LinhaController.swift */; };
+		650FB9D61E89D6C100E461C9 /* Linhas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650FB9D51E89D6C100E461C9 /* Linhas.swift */; };
+		650FB9D81E89E36A00E461C9 /* LinhaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650FB9D71E89E36A00E461C9 /* LinhaDetail.swift */; };
+		650FB9DA1E89E61200E461C9 /* SearchPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 650FB9D91E89E61200E461C9 /* SearchPoint.png */; };
+		650FB9DC1E89E68000E461C9 /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 650FB9DB1E89E68000E461C9 /* Time.png */; };
+		650FB9DE1E89E6DC00E461C9 /* PinPlaces.png in Resources */ = {isa = PBXBuildFile; fileRef = 650FB9DD1E89E6DC00E461C9 /* PinPlaces.png */; };
+		650FB9E01E89EEAE00E461C9 /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 650FB9DF1E89EEAE00E461C9 /* BackButton.png */; };
+		65333C2A1E75EFA10019247B /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65333C291E75EFA10019247B /* SideMenu.swift */; };
+		65333C311E75F22F0019247B /* icBus.png in Resources */ = {isa = PBXBuildFile; fileRef = 65333C2D1E75F22F0019247B /* icBus.png */; };
+		65333C321E75F22F0019247B /* icContactUs.png in Resources */ = {isa = PBXBuildFile; fileRef = 65333C2E1E75F22F0019247B /* icContactUs.png */; };
+		65333C331E75F22F0019247B /* icMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 65333C2F1E75F22F0019247B /* icMap.png */; };
+		65333C361E75F3830019247B /* icDisclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = 65333C351E75F3830019247B /* icDisclosure.png */; };
+		65333C391E75F8C40019247B /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65333C381E75F8C40019247B /* Util.swift */; };
+		65333C3C1E760CE40019247B /* icMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 65333C3A1E760CE40019247B /* icMenu.png */; };
+		65333C411E760E810019247B /* icSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = 65333C401E760E810019247B /* icSearch.png */; };
+		65366A871E871C7600760420 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65366A861E871C7600760420 /* Alerta.swift */; };
+		65366A891E871E0C00760420 /* Horarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65366A881E871E0C00760420 /* Horarios.swift */; };
+		65366A8B1E87202300760420 /* Trajeto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65366A8A1E87202300760420 /* Trajeto.swift */; };
+		65366A8E1E8720C800760420 /* Linha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65366A8D1E8720C800760420 /* Linha.swift */; };
+		65366A901E8730A900760420 /* Ponto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65366A8F1E8730A900760420 /* Ponto.swift */; };
+		65366A921E87343400760420 /* Historico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65366A911E87343400760420 /* Historico.swift */; };
+		65366A941E87381000760420 /* Frota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65366A931E87381000760420 /* Frota.swift */; };
+		65366A961E87430900760420 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65366A951E87430900760420 /* GoogleService-Info.plist */; };
+		6592AB701E874BB500AE8D10 /* FrotaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6592AB6F1E874BB500AE8D10 /* FrotaController.swift */; };
+		65F588B31E74ADC700AA74BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F588B21E74ADC700AA74BD /* AppDelegate.swift */; };
+		65F588B81E74ADC700AA74BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F588B61E74ADC700AA74BD /* Main.storyboard */; };
+		65F588BB1E74ADC700AA74BD /* Viacao_Uniao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65F588B91E74ADC700AA74BD /* Viacao_Uniao.xcdatamodeld */; };
+		65F588BD1E74ADC700AA74BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F588BC1E74ADC700AA74BD /* Assets.xcassets */; };
+		65F588C01E74ADC700AA74BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F588BE1E74ADC700AA74BD /* LaunchScreen.storyboard */; };
+		65F588CB1E74ADC700AA74BD /* Viacao_UniaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F588CA1E74ADC700AA74BD /* Viacao_UniaoTests.swift */; };
+		65F588D61E74ADC700AA74BD /* Viacao_UniaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F588D51E74ADC700AA74BD /* Viacao_UniaoUITests.swift */; };
+		65FAD2BE1E7A244000774F29 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FAD2BD1E7A244000774F29 /* Main.swift */; };
+		65FAD2C91E7A2BE200774F29 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FAD2C51E7A2BE200774F29 /* SideMenuManager.swift */; };
+		65FAD2CA1E7A2BE200774F29 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FAD2C61E7A2BE200774F29 /* SideMenuTransition.swift */; };
+		65FAD2CB1E7A2BE200774F29 /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FAD2C71E7A2BE200774F29 /* UISideMenuNavigationController.swift */; };
+		65FAD2CC1E7A2BE200774F29 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FAD2C81E7A2BE200774F29 /* UITableViewVibrantCell.swift */; };
+		65FAD2CE1E7A314A00774F29 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FAD2CD1E7A314A00774F29 /* CoreLocation.framework */; };
+		A8A845E58DE29D5EBB9C568B /* Pods_Viacao_Uniao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552C156542F21EFFC0F8A3C6 /* Pods_Viacao_Uniao.framework */; };
+		AB51C62F2558B0095DE89268 /* Pods_Viacao_UniaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20750C67590DDA568DD8BA4F /* Pods_Viacao_UniaoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65F588C71E74ADC700AA74BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65F588A71E74ADC700AA74BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F588AE1E74ADC700AA74BD;
+			remoteInfo = "Viacao Uniao";
+		};
+		65F588D21E74ADC700AA74BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65F588A71E74ADC700AA74BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F588AE1E74ADC700AA74BD;
+			remoteInfo = "Viacao Uniao";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20750C67590DDA568DD8BA4F /* Pods_Viacao_UniaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viacao_UniaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3288F86D5C160D147812898D /* Pods-Viacao Uniao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viacao Uniao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viacao Uniao/Pods-Viacao Uniao.debug.xcconfig"; sourceTree = "<group>"; };
+		3BA7552935097CC0A15905A3 /* Pods-Viacao UniaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viacao UniaoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viacao UniaoTests/Pods-Viacao UniaoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D28204053FCF3D34B47AECD /* Pods-Viacao UniaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viacao UniaoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viacao UniaoTests/Pods-Viacao UniaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		552C156542F21EFFC0F8A3C6 /* Pods_Viacao_Uniao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viacao_Uniao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62052B072F08CE6A6B99C2F1 /* Pods-Viacao UniaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viacao UniaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viacao UniaoUITests/Pods-Viacao UniaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		65009D8D1E88BBA100E9648D /* PinBus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinBus.png; sourceTree = "<group>"; };
+		65009D8F1E88BDF300E9648D /* PinUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinUser.png; sourceTree = "<group>"; };
+		650FB9D31E89D36C00E461C9 /* LinhaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinhaController.swift; sourceTree = "<group>"; };
+		650FB9D51E89D6C100E461C9 /* Linhas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Linhas.swift; sourceTree = "<group>"; };
+		650FB9D71E89E36A00E461C9 /* LinhaDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinhaDetail.swift; sourceTree = "<group>"; };
+		650FB9D91E89E61200E461C9 /* SearchPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchPoint.png; sourceTree = "<group>"; };
+		650FB9DB1E89E68000E461C9 /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
+		650FB9DD1E89E6DC00E461C9 /* PinPlaces.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinPlaces.png; sourceTree = "<group>"; };
+		650FB9DF1E89EEAE00E461C9 /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
+		65333C291E75EFA10019247B /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		65333C2D1E75F22F0019247B /* icBus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icBus.png; sourceTree = "<group>"; };
+		65333C2E1E75F22F0019247B /* icContactUs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icContactUs.png; sourceTree = "<group>"; };
+		65333C2F1E75F22F0019247B /* icMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icMap.png; sourceTree = "<group>"; };
+		65333C351E75F3830019247B /* icDisclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icDisclosure.png; sourceTree = "<group>"; };
+		65333C381E75F8C40019247B /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		65333C3A1E760CE40019247B /* icMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icMenu.png; sourceTree = "<group>"; };
+		65333C401E760E810019247B /* icSearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icSearch.png; sourceTree = "<group>"; };
+		65366A861E871C7600760420 /* Alerta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		65366A881E871E0C00760420 /* Horarios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Horarios.swift; sourceTree = "<group>"; };
+		65366A8A1E87202300760420 /* Trajeto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trajeto.swift; sourceTree = "<group>"; };
+		65366A8D1E8720C800760420 /* Linha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Linha.swift; sourceTree = "<group>"; };
+		65366A8F1E8730A900760420 /* Ponto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ponto.swift; sourceTree = "<group>"; };
+		65366A911E87343400760420 /* Historico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Historico.swift; sourceTree = "<group>"; };
+		65366A931E87381000760420 /* Frota.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frota.swift; sourceTree = "<group>"; };
+		65366A951E87430900760420 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6592AB6F1E874BB500AE8D10 /* FrotaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrotaController.swift; sourceTree = "<group>"; };
+		65F588AF1E74ADC700AA74BD /* Viacao Uniao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viacao Uniao.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F588B21E74ADC700AA74BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65F588B71E74ADC700AA74BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65F588BA1E74ADC700AA74BD /* Viacao_Uniao.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Viacao_Uniao.xcdatamodel; sourceTree = "<group>"; };
+		65F588BC1E74ADC700AA74BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65F588BF1E74ADC700AA74BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65F588C11E74ADC700AA74BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F588C61E74ADC700AA74BD /* Viacao UniaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viacao UniaoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F588CA1E74ADC700AA74BD /* Viacao_UniaoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viacao_UniaoTests.swift; sourceTree = "<group>"; };
+		65F588CC1E74ADC700AA74BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F588D11E74ADC700AA74BD /* Viacao UniaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viacao UniaoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F588D51E74ADC700AA74BD /* Viacao_UniaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viacao_UniaoUITests.swift; sourceTree = "<group>"; };
+		65F588D71E74ADC700AA74BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FAD2BD1E7A244000774F29 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		65FAD2C51E7A2BE200774F29 /* SideMenuManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuManager.swift; sourceTree = "<group>"; };
+		65FAD2C61E7A2BE200774F29 /* SideMenuTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTransition.swift; sourceTree = "<group>"; };
+		65FAD2C71E7A2BE200774F29 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		65FAD2C81E7A2BE200774F29 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		65FAD2CD1E7A314A00774F29 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		822A13F455513C3A0A0E43A1 /* Pods-Viacao Uniao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viacao Uniao.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viacao Uniao/Pods-Viacao Uniao.release.xcconfig"; sourceTree = "<group>"; };
+		8707F26F83AEACFB76D8456A /* Pods_Viacao_UniaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viacao_UniaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A69FC398E9AA7540C41075 /* Pods-Viacao UniaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viacao UniaoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viacao UniaoUITests/Pods-Viacao UniaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65F588AC1E74ADC700AA74BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FAD2CE1E7A314A00774F29 /* CoreLocation.framework in Frameworks */,
+				A8A845E58DE29D5EBB9C568B /* Pods_Viacao_Uniao.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F588C31E74ADC700AA74BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB51C62F2558B0095DE89268 /* Pods_Viacao_UniaoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F588CE1E74ADC700AA74BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9DFF1F9682E51944BA8E9E /* Pods_Viacao_UniaoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BCEA5E14BE18C3195FAC628 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3288F86D5C160D147812898D /* Pods-Viacao Uniao.debug.xcconfig */,
+				822A13F455513C3A0A0E43A1 /* Pods-Viacao Uniao.release.xcconfig */,
+				3D28204053FCF3D34B47AECD /* Pods-Viacao UniaoTests.debug.xcconfig */,
+				3BA7552935097CC0A15905A3 /* Pods-Viacao UniaoTests.release.xcconfig */,
+				62052B072F08CE6A6B99C2F1 /* Pods-Viacao UniaoUITests.debug.xcconfig */,
+				C2A69FC398E9AA7540C41075 /* Pods-Viacao UniaoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65333C371E75F89E0019247B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				65333C381E75F8C40019247B /* Util.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		65366A8C1E8720B200760420 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				65366A861E871C7600760420 /* Alerta.swift */,
+				65366A881E871E0C00760420 /* Horarios.swift */,
+				65366A8A1E87202300760420 /* Trajeto.swift */,
+				65366A8D1E8720C800760420 /* Linha.swift */,
+				65366A8F1E8730A900760420 /* Ponto.swift */,
+				65366A911E87343400760420 /* Historico.swift */,
+				65366A931E87381000760420 /* Frota.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		65F588A61E74ADC700AA74BD = {
+			isa = PBXGroup;
+			children = (
+				65F588B11E74ADC700AA74BD /* Viacao Uniao */,
+				65F588C91E74ADC700AA74BD /* Viacao UniaoTests */,
+				65F588D41E74ADC700AA74BD /* Viacao UniaoUITests */,
+				65F588B01E74ADC700AA74BD /* Products */,
+				4BCEA5E14BE18C3195FAC628 /* Pods */,
+				E87F4F946E0B1FD69F38C2F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65F588B01E74ADC700AA74BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65F588AF1E74ADC700AA74BD /* Viacao Uniao.app */,
+				65F588C61E74ADC700AA74BD /* Viacao UniaoTests.xctest */,
+				65F588D11E74ADC700AA74BD /* Viacao UniaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65F588B11E74ADC700AA74BD /* Viacao Uniao */ = {
+			isa = PBXGroup;
+			children = (
+				65FAD2BF1E7A273500774F29 /* Components */,
+				65333C371E75F89E0019247B /* Library */,
+				65F588EA1E74AF0B00AA74BD /* Storyboard */,
+				65F588E71E74AEAF00AA74BD /* Assets */,
+				65F588E61E74AE6800AA74BD /* Controller */,
+				65F588E51E74AE5800AA74BD /* View */,
+				65F588E41E74AE3100AA74BD /* Model */,
+				65F588E31E74AE1A00AA74BD /* Supporting Files */,
+			);
+			path = "Viacao Uniao";
+			sourceTree = "<group>";
+		};
+		65F588C91E74ADC700AA74BD /* Viacao UniaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				65F588CA1E74ADC700AA74BD /* Viacao_UniaoTests.swift */,
+				65F588CC1E74ADC700AA74BD /* Info.plist */,
+			);
+			path = "Viacao UniaoTests";
+			sourceTree = "<group>";
+		};
+		65F588D41E74ADC700AA74BD /* Viacao UniaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65F588D51E74ADC700AA74BD /* Viacao_UniaoUITests.swift */,
+				65F588D71E74ADC700AA74BD /* Info.plist */,
+			);
+			path = "Viacao UniaoUITests";
+			sourceTree = "<group>";
+		};
+		65F588E31E74AE1A00AA74BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65366A951E87430900760420 /* GoogleService-Info.plist */,
+				65F588B91E74ADC700AA74BD /* Viacao_Uniao.xcdatamodeld */,
+				65F588BC1E74ADC700AA74BD /* Assets.xcassets */,
+				65F588B21E74ADC700AA74BD /* AppDelegate.swift */,
+				65F588C11E74ADC700AA74BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65F588E41E74AE3100AA74BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65366A8C1E8720B200760420 /* Entities */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65F588E51E74AE5800AA74BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65FAD2BD1E7A244000774F29 /* Main.swift */,
+				65333C291E75EFA10019247B /* SideMenu.swift */,
+				650FB9D51E89D6C100E461C9 /* Linhas.swift */,
+				650FB9D71E89E36A00E461C9 /* LinhaDetail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65F588E61E74AE6800AA74BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6592AB6F1E874BB500AE8D10 /* FrotaController.swift */,
+				650FB9D31E89D36C00E461C9 /* LinhaController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65F588E71E74AEAF00AA74BD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				65F588E91E74AEEF00AA74BD /* Images */,
+				65F588E81E74AEDE00AA74BD /* Icons */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		65F588E81E74AEDE00AA74BD /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		65F588E91E74AEEF00AA74BD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				650FB9DF1E89EEAE00E461C9 /* BackButton.png */,
+				650FB9D91E89E61200E461C9 /* SearchPoint.png */,
+				650FB9DB1E89E68000E461C9 /* Time.png */,
+				65333C3A1E760CE40019247B /* icMenu.png */,
+				650FB9DD1E89E6DC00E461C9 /* PinPlaces.png */,
+				65333C2D1E75F22F0019247B /* icBus.png */,
+				65009D8D1E88BBA100E9648D /* PinBus.png */,
+				65333C401E760E810019247B /* icSearch.png */,
+				65009D8F1E88BDF300E9648D /* PinUser.png */,
+				65333C351E75F3830019247B /* icDisclosure.png */,
+				65333C2E1E75F22F0019247B /* icContactUs.png */,
+				65333C2F1E75F22F0019247B /* icMap.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		65F588EA1E74AF0B00AA74BD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				65F588BE1E74ADC700AA74BD /* LaunchScreen.storyboard */,
+				65F588B61E74ADC700AA74BD /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		65FAD2BF1E7A273500774F29 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				65FAD2C41E7A2B3700774F29 /* SideMenu */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		65FAD2C41E7A2B3700774F29 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				65FAD2C51E7A2BE200774F29 /* SideMenuManager.swift */,
+				65FAD2C61E7A2BE200774F29 /* SideMenuTransition.swift */,
+				65FAD2C71E7A2BE200774F29 /* UISideMenuNavigationController.swift */,
+				65FAD2C81E7A2BE200774F29 /* UITableViewVibrantCell.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		E87F4F946E0B1FD69F38C2F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65FAD2CD1E7A314A00774F29 /* CoreLocation.framework */,
+				552C156542F21EFFC0F8A3C6 /* Pods_Viacao_Uniao.framework */,
+				20750C67590DDA568DD8BA4F /* Pods_Viacao_UniaoTests.framework */,
+				8707F26F83AEACFB76D8456A /* Pods_Viacao_UniaoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65F588AE1E74ADC700AA74BD /* Viacao Uniao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F588DA1E74ADC700AA74BD /* Build configuration list for PBXNativeTarget "Viacao Uniao" */;
+			buildPhases = (
+				BAD46475DF3ADE6B89CDB006 /* [CP] Check Pods Manifest.lock */,
+				65F588AB1E74ADC700AA74BD /* Sources */,
+				65F588AC1E74ADC700AA74BD /* Frameworks */,
+				65F588AD1E74ADC700AA74BD /* Resources */,
+				A0D06EDD80B613487E9EC67A /* [CP] Embed Pods Frameworks */,
+				DA5817B3512E1ADA4680173E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Viacao Uniao";
+			productName = "Viacao Uniao";
+			productReference = 65F588AF1E74ADC700AA74BD /* Viacao Uniao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65F588C51E74ADC700AA74BD /* Viacao UniaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F588DD1E74ADC700AA74BD /* Build configuration list for PBXNativeTarget "Viacao UniaoTests" */;
+			buildPhases = (
+				5767D4256A38327F998D9BA3 /* [CP] Check Pods Manifest.lock */,
+				65F588C21E74ADC700AA74BD /* Sources */,
+				65F588C31E74ADC700AA74BD /* Frameworks */,
+				65F588C41E74ADC700AA74BD /* Resources */,
+				5C092F2C0C827F5BE8F0E505 /* [CP] Embed Pods Frameworks */,
+				CBCBF3B0CAA6837B5763CED2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F588C81E74ADC700AA74BD /* PBXTargetDependency */,
+			);
+			name = "Viacao UniaoTests";
+			productName = "Viacao UniaoTests";
+			productReference = 65F588C61E74ADC700AA74BD /* Viacao UniaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65F588D01E74ADC700AA74BD /* Viacao UniaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F588E01E74ADC700AA74BD /* Build configuration list for PBXNativeTarget "Viacao UniaoUITests" */;
+			buildPhases = (
+				8EF31BE3FD999843E13E62F3 /* [CP] Check Pods Manifest.lock */,
+				65F588CD1E74ADC700AA74BD /* Sources */,
+				65F588CE1E74ADC700AA74BD /* Frameworks */,
+				65F588CF1E74ADC700AA74BD /* Resources */,
+				46D60F4BCFD74DFC49ABFDD0 /* [CP] Embed Pods Frameworks */,
+				CC6C1DFD7931802FE77B7C36 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F588D31E74ADC700AA74BD /* PBXTargetDependency */,
+			);
+			name = "Viacao UniaoUITests";
+			productName = "Viacao UniaoUITests";
+			productReference = 65F588D11E74ADC700AA74BD /* Viacao UniaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65F588A71E74ADC700AA74BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "DLCA Solutions";
+				TargetAttributes = {
+					65F588AE1E74ADC700AA74BD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M9LPAYM2KZ;
+						ProvisioningStyle = Automatic;
+					};
+					65F588C51E74ADC700AA74BD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65F588AE1E74ADC700AA74BD;
+					};
+					65F588D01E74ADC700AA74BD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65F588AE1E74ADC700AA74BD;
+					};
+				};
+			};
+			buildConfigurationList = 65F588AA1E74ADC700AA74BD /* Build configuration list for PBXProject "Viacao Uniao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65F588A61E74ADC700AA74BD;
+			productRefGroup = 65F588B01E74ADC700AA74BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65F588AE1E74ADC700AA74BD /* Viacao Uniao */,
+				65F588C51E74ADC700AA74BD /* Viacao UniaoTests */,
+				65F588D01E74ADC700AA74BD /* Viacao UniaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65F588AD1E74ADC700AA74BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65009D901E88BDF400E9648D /* PinUser.png in Resources */,
+				65333C331E75F22F0019247B /* icMap.png in Resources */,
+				650FB9DC1E89E68000E461C9 /* Time.png in Resources */,
+				65F588C01E74ADC700AA74BD /* LaunchScreen.storyboard in Resources */,
+				65333C311E75F22F0019247B /* icBus.png in Resources */,
+				65F588BD1E74ADC700AA74BD /* Assets.xcassets in Resources */,
+				65333C361E75F3830019247B /* icDisclosure.png in Resources */,
+				65009D8E1E88BBA100E9648D /* PinBus.png in Resources */,
+				65333C321E75F22F0019247B /* icContactUs.png in Resources */,
+				650FB9DA1E89E61200E461C9 /* SearchPoint.png in Resources */,
+				65333C3C1E760CE40019247B /* icMenu.png in Resources */,
+				65366A961E87430900760420 /* GoogleService-Info.plist in Resources */,
+				650FB9DE1E89E6DC00E461C9 /* PinPlaces.png in Resources */,
+				65F588B81E74ADC700AA74BD /* Main.storyboard in Resources */,
+				650FB9E01E89EEAE00E461C9 /* BackButton.png in Resources */,
+				65333C411E760E810019247B /* icSearch.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F588C41E74ADC700AA74BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F588CF1E74ADC700AA74BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46D60F4BCFD74DFC49ABFDD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viacao UniaoUITests/Pods-Viacao UniaoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5767D4256A38327F998D9BA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C092F2C0C827F5BE8F0E505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viacao UniaoTests/Pods-Viacao UniaoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EF31BE3FD999843E13E62F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D06EDD80B613487E9EC67A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viacao Uniao/Pods-Viacao Uniao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAD46475DF3ADE6B89CDB006 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCBF3B0CAA6837B5763CED2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viacao UniaoTests/Pods-Viacao UniaoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC6C1DFD7931802FE77B7C36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viacao UniaoUITests/Pods-Viacao UniaoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA5817B3512E1ADA4680173E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viacao Uniao/Pods-Viacao Uniao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65F588AB1E74ADC700AA74BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650FB9D81E89E36A00E461C9 /* LinhaDetail.swift in Sources */,
+				65FAD2CA1E7A2BE200774F29 /* SideMenuTransition.swift in Sources */,
+				65FAD2BE1E7A244000774F29 /* Main.swift in Sources */,
+				65366A941E87381000760420 /* Frota.swift in Sources */,
+				65FAD2C91E7A2BE200774F29 /* SideMenuManager.swift in Sources */,
+				65FAD2CB1E7A2BE200774F29 /* UISideMenuNavigationController.swift in Sources */,
+				65333C2A1E75EFA10019247B /* SideMenu.swift in Sources */,
+				65366A8B1E87202300760420 /* Trajeto.swift in Sources */,
+				65366A921E87343400760420 /* Historico.swift in Sources */,
+				65366A8E1E8720C800760420 /* Linha.swift in Sources */,
+				6592AB701E874BB500AE8D10 /* FrotaController.swift in Sources */,
+				65FAD2CC1E7A2BE200774F29 /* UITableViewVibrantCell.swift in Sources */,
+				65366A871E871C7600760420 /* Alerta.swift in Sources */,
+				650FB9D41E89D36C00E461C9 /* LinhaController.swift in Sources */,
+				65333C391E75F8C40019247B /* Util.swift in Sources */,
+				65366A901E8730A900760420 /* Ponto.swift in Sources */,
+				65366A891E871E0C00760420 /* Horarios.swift in Sources */,
+				650FB9D61E89D6C100E461C9 /* Linhas.swift in Sources */,
+				65F588BB1E74ADC700AA74BD /* Viacao_Uniao.xcdatamodeld in Sources */,
+				65F588B31E74ADC700AA74BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F588C21E74ADC700AA74BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F588CB1E74ADC700AA74BD /* Viacao_UniaoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F588CD1E74ADC700AA74BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F588D61E74ADC700AA74BD /* Viacao_UniaoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65F588C81E74ADC700AA74BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F588AE1E74ADC700AA74BD /* Viacao Uniao */;
+			targetProxy = 65F588C71E74ADC700AA74BD /* PBXContainerItemProxy */;
+		};
+		65F588D31E74ADC700AA74BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F588AE1E74ADC700AA74BD /* Viacao Uniao */;
+			targetProxy = 65F588D21E74ADC700AA74BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65F588B61E74ADC700AA74BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F588B71E74ADC700AA74BD /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		65F588BE1E74ADC700AA74BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F588BF1E74ADC700AA74BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65F588D81E74ADC700AA74BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65F588D91E74ADC700AA74BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65F588DB1E74ADC700AA74BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3288F86D5C160D147812898D /* Pods-Viacao Uniao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M9LPAYM2KZ;
+				INFOPLIST_FILE = "Viacao Uniao/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.dlcasolutions.viacaouniao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		65F588DC1E74ADC700AA74BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 822A13F455513C3A0A0E43A1 /* Pods-Viacao Uniao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M9LPAYM2KZ;
+				INFOPLIST_FILE = "Viacao Uniao/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.dlcasolutions.viacaouniao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		65F588DE1E74ADC700AA74BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D28204053FCF3D34B47AECD /* Pods-Viacao UniaoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Viacao UniaoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.dlcasolutions.Viacao-UniaoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viacao Uniao.app/Viacao Uniao";
+			};
+			name = Debug;
+		};
+		65F588DF1E74ADC700AA74BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA7552935097CC0A15905A3 /* Pods-Viacao UniaoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Viacao UniaoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.dlcasolutions.Viacao-UniaoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viacao Uniao.app/Viacao Uniao";
+			};
+			name = Release;
+		};
+		65F588E11E74ADC700AA74BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62052B072F08CE6A6B99C2F1 /* Pods-Viacao UniaoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Viacao UniaoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.dlcasolutions.Viacao-UniaoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Viacao Uniao";
+			};
+			name = Debug;
+		};
+		65F588E21E74ADC700AA74BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A69FC398E9AA7540C41075 /* Pods-Viacao UniaoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Viacao UniaoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.dlcasolutions.Viacao-UniaoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Viacao Uniao";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65F588AA1E74ADC700AA74BD /* Build configuration list for PBXProject "Viacao Uniao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F588D81E74ADC700AA74BD /* Debug */,
+				65F588D91E74ADC700AA74BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F588DA1E74ADC700AA74BD /* Build configuration list for PBXNativeTarget "Viacao Uniao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F588DB1E74ADC700AA74BD /* Debug */,
+				65F588DC1E74ADC700AA74BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F588DD1E74ADC700AA74BD /* Build configuration list for PBXNativeTarget "Viacao UniaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F588DE1E74ADC700AA74BD /* Debug */,
+				65F588DF1E74ADC700AA74BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F588E01E74ADC700AA74BD /* Build configuration list for PBXNativeTarget "Viacao UniaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F588E11E74ADC700AA74BD /* Debug */,
+				65F588E21E74ADC700AA74BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65F588B91E74ADC700AA74BD /* Viacao_Uniao.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65F588BA1E74ADC700AA74BD /* Viacao_Uniao.xcdatamodel */,
+			);
+			currentVersion = 65F588BA1E74ADC700AA74BD /* Viacao_Uniao.xcdatamodel */;
+			path = Viacao_Uniao.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65F588A71E74ADC700AA74BD /* Project object */;
+}
